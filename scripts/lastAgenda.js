@@ -25,7 +25,7 @@ async function lastAgenda(app) {
       .join("\n");
     return lastNoteAgenda;
   } else {
-    return "# Agenda\n- [ ] item 1";
+    return "- [ ] item 1";
   }
 }
 
